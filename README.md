@@ -9,7 +9,7 @@
 ## 📥 Installation
 ### BetterDiscord
 
-Go [here](https://betterdiscord.app/theme/LilyPichu) and save the file into your theme folder
+Go [here](https://raw.githubusercontent.com/advyte-byte/XOPichu/main/xopichu.theme.css), Right click and save the file as css into your theme folder
 
 ## 🖌️ Customization
 Go into your theme folder and open :
