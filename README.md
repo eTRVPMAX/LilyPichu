@@ -1,7 +1,8 @@
 ## Before you Continue!
 ### Credits
-[NYRI4](https://github.com/NYRI4/LilyPichu) For LilyPichu BD theme
-[Unsplahsed](https://unsplash.com/photos/ay53qag90W8) For the Background image.
+[NYRI4](https://github.com/NYRI4/LilyPichu) For LilyPichu BD theme.
+
+[Unsplash](https://unsplash.com/photos/ay53qag90W8) For the Background image.
 
 ![Preview](https://raw.githubusercontent.com/advyte-byte/XOPichu/main/assets/image_2023-01-21_221313378.png)
 
