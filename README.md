@@ -8,7 +8,7 @@ Go [here](https://betterdiscord.app/theme/LilyPichu) and save the file into your
 ## 🖌️ Customization
 Go into your theme folder and open :
 
-`lilypichu.theme.css` for BetterDiscord
+`xopichu.theme.css` for BetterDiscord
 
 ## 🖼️ More preview
 
