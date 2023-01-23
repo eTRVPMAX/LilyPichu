@@ -1,9 +1,7 @@
 @import url("https://nyri4.github.io/LilyPichu/main.css");
 
 :root {
-
 /* --- User variables --- */
-
 /* XO logo in user profile / set it to none if you dont want it */
 --profile-xo-logo: url('https://raw.githubusercontent.com/advyte-byte/XOPichu/main/assets/xo-profile-bg.png');
 
@@ -11,13 +9,11 @@
 --jumping-gif: url('https://raw.githubusercontent.com/advyte-byte/XOPichu/main/assets/xo-mini.png');
 
 /* Background (if you want an image replace it by : 
-
 --background-tertiary-alt: url("image-link"); without that => */
 --background-tertiary-alt: rgb(177, 177, 177);
 
 /* Border-radius for the whole theme */
 --border-radius: 20px;
-
 --button: #dba470;
 
 }
