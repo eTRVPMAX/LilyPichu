@@ -2,8 +2,6 @@
 ### Credits
 [NYRI4](https://github.com/NYRI4/LilyPichu) For LilyPichu BD theme.
 
-[Unsplash](https://unsplash.com/photos/ay53qag90W8) For the Background image.
-
 ![Preview](https://raw.githubusercontent.com/advyte-byte/XOPichu/main/assets/preview.png)
 
 ### If you don't find this in your window, try ctrl + - to downscale the window
