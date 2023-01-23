@@ -19,3 +19,7 @@ Go into your theme folder and open :
 ## 🖼️ More preview
 
 ![Preview](https://raw.githubusercontent.com/advyte-byte/XOPichu/main/assets/status_picker.png)
+
+A Few More XO somewhere or the other.
+
+![Preview](https://raw.githubusercontent.com/advyte-byte/XOPichu/main/assets/inbox.png)
