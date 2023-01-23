@@ -4,7 +4,7 @@
 
 [Unsplash](https://unsplash.com/photos/ay53qag90W8) For the Background image.
 
-![Preview](https://raw.githubusercontent.com/advyte-byte/XOPichu/main/assets/image_2023-01-21_221313378.png)
+![Preview](https://raw.githubusercontent.com/advyte-byte/XOPichu/main/assets/preview.png)
 
 ## 📥 Installation
 ### BetterDiscord
