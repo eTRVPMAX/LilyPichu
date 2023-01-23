@@ -144,8 +144,7 @@
 .peopleColumn-1wMU14,
 .scroller-WSmht3,
 :root .nowPlayingColumn-1eCBCN::before,
-:root .nowPlayingColumn-1eCBCN .scroller-hE2gWq,
-.thin-31rlnD
+:root .nowPlayingColumn-1eCBCN .scroller-hE2gWq
  {
   backdrop-filter: blur(var(--bg-blur)) !important;
 }
