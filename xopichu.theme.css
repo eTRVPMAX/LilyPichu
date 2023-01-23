@@ -3,7 +3,7 @@
 * @author Nyria#3863
 * @description A theme forked from LilyPichu with some tiny Weeknd edit
 * @invite rtBQX5D3bD
-* @version 1.3
+* @version 1.3.1
 * @donate https://ko-fi.com/nyria
 * @source https://github.com/advyte-byte/XOPichu
 * @updateUrl https://raw.githubusercontent.com/advyte-byte/XOPichu/main/xopichu.theme.css
@@ -15,8 +15,11 @@
 
 /* --- User variables --- */
 
+/* XO logo in user profile / set it to none if you dont want it */
+--profile-xo-logo: url('https://raw.githubusercontent.com/advyte-byte/XOPichu/main/assets/xo-profile-bg.png');
+
 /* Jumping GIF */
---jumping-gif: url('https://cdn.discordapp.com/attachments/1013091495714230354/1066284984060616724/image_2023-01-21_144403562.png');
+--jumping-gif: url('https://raw.githubusercontent.com/advyte-byte/XOPichu/main/assets/xo-mini.png');
 
 /* Background (if you want an image replace it by : 
 
@@ -33,7 +36,7 @@
 .theme-dark {
 
     /* Text */
-    --text-normal: #f8e1e5;
+    --text-normal: #ffffff;
     --header-primary: rgb(255, 255, 255);
     --interactive-normal: #ffffff;
     --channels-default: #ffffff;
@@ -46,7 +49,7 @@
     --interactive-active: #e2e2e2;
 
     /* Background color */
-    --background-primary: #242424 !important;
+    --background-primary: #0f0f0f !important;
     --background-secondary: #0c0c0c !important;
     --background-secondary-alt: #141414 !important;
     --background-tertiary: #1a1a1a !important;
@@ -86,17 +89,17 @@
 .theme-light {
 
     /* Text */
-    --text-normal: #868686 !important;
-    --header-primary: #808080 !important;
-    --interactive-normal: #969696 !important;
-    --channels-default: #a5a5a5 !important;
+    --text-normal: #232323 !important;
+    --header-primary: #363636 !important;
+    --interactive-normal: #1b1b1b !important;
+    --channels-default: #2a2a2a !important;
 
-    --text-muted: #a86373 !important;
-    --interactive-muted: #cf92a0 !important;
+    --text-muted: #3c3c3c !important;
+    --interactive-muted: #1c1c1c !important;
 
-    --header-secondary: #cf92a0 !important;
-    --interactive-hover: #be7d8c !important;
-    --interactive-active: #b36f7f !important;
+    --header-secondary: #f0f0f0 !important;
+    --interactive-hover: #2a2a2a !important;
+    --interactive-active: #171717 !important;
 
     /* Background color */
     --background-primary: rgb(199, 199, 199) !important;
@@ -156,13 +159,15 @@
     :root .bg-1QIAus::before {
       background: url(none) no-repeat;
     }
-
+  :root .layers-OrUESM::after {
+      background: url(none) !important;
+  }
     /* Credit to Unsplashed for the bg image 
     
     Url: https://unsplash.com/photos/ay53qag90W8 */
 
     :root .bg-1QIAus {
-        background: url(https://cdn.discordapp.com/attachments/1013091495714230354/1066290596475576430/photo-1502239608882-93b729c6af43.png) !important;
+        background: url(https://raw.githubusercontent.com/advyte-byte/XOPichu/main/assets/bg.png) !important;
     }
     .container-1eFtFS::after {
       content: "Stay Goated" !important;
@@ -173,3 +178,6 @@
         min-width: 60px;
         min-height: 60px;
     }
+.userProfileInnerThemedNonPremium-1gT-zY {
+    background: var(--profile-xo-logo) !important;
+}
