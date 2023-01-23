@@ -18,6 +18,9 @@ Go into your theme folder and open :
 
 `xopichu.theme.css` for BetterDiscord
 
+### If you want to Adjust the Blur
+Go to `--bg-blur`and adjust the `px` level
+
 ## 🖼️ More preview
 
 A Few More XO somewhere or the other.
