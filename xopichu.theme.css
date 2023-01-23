@@ -6,6 +6,7 @@
 * @version 1.3
 * @donate https://ko-fi.com/nyria
 * @source https://github.com/advyte-byte/XOPichu
+* @updateUrl https://raw.githubusercontent.com/advyte-byte/XOPichu/main/xopichu.theme.css
 */
 
 @import url("https://nyri4.github.io/LilyPichu/main.css");
@@ -130,6 +131,7 @@
     /* Hover background */
     .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { color: var(--interactive-normal);}
 
+
     :root .app-3xd6d0::before {
       background: url(none) no-repeat;
     }
@@ -154,15 +156,13 @@
     :root .bg-1QIAus::before {
       background: url(none) no-repeat;
     }
-  :root .layers-OrUESM::after {
-      background: url(none) !important;
-  }
+
     /* Credit to Unsplashed for the bg image 
     
     Url: https://unsplash.com/photos/ay53qag90W8 */
 
     :root .bg-1QIAus {
-        background: url(https://raw.githubusercontent.com/advyte-byte/XOPichu/main/assets/bg.png) !important;
+        background: url(https://cdn.discordapp.com/attachments/1013091495714230354/1066290596475576430/photo-1502239608882-93b729c6af43.png) center !important;
     }
     .container-1eFtFS::after {
       content: "Stay Goated" !important;
