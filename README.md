@@ -6,6 +6,10 @@
 
 ![Preview](https://raw.githubusercontent.com/advyte-byte/XOPichu/main/assets/preview.png)
 
+### If you don't find this in your window, try ctrl + - to downscale the window
+
+![Preview](https://raw.githubusercontent.com/advyte-byte/XOPichu/main/assets/ddf.png)
+
 ## 📥 Installation
 ### BetterDiscord
 
