@@ -4,6 +4,10 @@
 
 ![Preview](https://raw.githubusercontent.com/advyte-byte/XOPichu/main/assets/image_2023-01-23_202138290.png)
 
+### Flat Variant
+
+![Preview](https://raw.githubusercontent.com/advyte-byte/XOPichu/main/assets/preview-flat.png)
+
 ### If you don't find this in your window, try ctrl + - to downscale the window
 
 ![Preview](https://raw.githubusercontent.com/advyte-byte/XOPichu/main/assets/image_2023-01-23_202154827.png)
@@ -16,9 +20,9 @@ Go [here](https://raw.githubusercontent.com/advyte-byte/XOPichu/main/xopichu.the
 ## 🖌️ Customization
 Go into your theme folder and open :
 
-`xopichu.theme.css` for BetterDiscord
+`xopichu.theme.css` or `xopichu-flat.theme.css` for BetterDiscord
 
-### If you want to Adjust the Blur
+### If you want to Adjust the Blur (Default Variant only)
 Go to `--bg-blur`and adjust the `px` level
 
 ## 🖼️ More preview
