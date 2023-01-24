@@ -15,7 +15,11 @@
 ## 📥 Installation
 ### BetterDiscord
 
-Go [here](https://raw.githubusercontent.com/advyte-byte/XOPichu/main/xopichu.theme.css), Right click and save the file as css into your theme folder
+Download the theme you like from the link below, Right click and save the file as css into your theme folder
+
+[Default | Blur Variant](https://raw.githubusercontent.com/advyte-byte/XOPichu/main/xopichu.theme.css)
+
+[Flat Variant](https://raw.githubusercontent.com/advyte-byte/XOPichu/main/xopichu-flat.theme.css)
 
 ## 🖌️ Customization
 Go into your theme folder and open :
