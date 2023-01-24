@@ -27,7 +27,7 @@
 /* Border-radius for the whole theme */
 --border-radius: 20px;
 
---bg-blur: 50px;
+--bg-blur: 35px;
 
 --button: #dba470;
 
@@ -52,7 +52,7 @@
     --background-primary: #303030be !important;
     --background-secondary: #22222287 !important;
     --background-secondary-alt: #2c2c2cbb !important;
-    --background-tertiary: #181818b2 !important;
+    --background-tertiary: #18181891 !important;
     --background-floating: #242424d7 !important;
     --background-accent: #575757 !important;
     --channeltextarea-background: var(--background-secondary);
@@ -143,8 +143,8 @@
 .form-3gdLxP,
 .peopleColumn-1wMU14,
 .scroller-WSmht3,
-:root .nowPlayingColumn-1eCBCN::before,
-:root .nowPlayingColumn-1eCBCN .scroller-hE2gWq
- {
+.container-1NXEtd,
+.guilds-2JjMmN
+{
   backdrop-filter: blur(var(--bg-blur)) !important;
 }
