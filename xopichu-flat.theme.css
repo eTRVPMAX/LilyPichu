@@ -129,9 +129,9 @@
 }
 .container-2ebMPP {
   background: url('https://raw.githubusercontent.com/advyte-byte/XOPichu/main/assets/window-xo.png') center no-repeat !important;
-  backdrop-filter: blur(15px) !important;
+  backdrop-filter: blur(5px) !important;
 }
 .header-145e10.expanded-2H1xJ- {
   background: none !important;
-  backdrop-filter: blur(15px);
+  backdrop-filter: blur(5px);
 }
