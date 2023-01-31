@@ -15,6 +15,14 @@
 
 /* --- User variables --- */
 
+--background-image: url('https://raw.githubusercontent.com/advyte-byte/XOPichu/main/assets/bg.jpg');
+
+--container-text: "Stay Goated";
+
+--home-button-icon: url('https://i.ibb.co/r6Tn2dQ/image-2023-01-20-221010183.png');
+
+--inbox-bg-img: url('https://raw.githubusercontent.com/advyte-byte/XOPichu/main/assets/window-xo.png');
+
 /* XO logo in user profile / set it to none if you dont want it */
 --profile-xo-logo: url('https://raw.githubusercontent.com/advyte-byte/XOPichu/main/assets/xo-profile-bg.png');
 
@@ -108,19 +116,15 @@
       background: url(none) no-repeat;
     }
 
-    /* Credit to Unsplashed for the bg image 
-    
-    Url: https://unsplash.com/photos/ay53qag90W8 */
-
     :root .bg-1QIAus {
-        background: url('https://raw.githubusercontent.com/advyte-byte/XOPichu/main/assets/bg.jpg') center !important;
+        background: var(--background-image) center !important;
     }
     .container-1eFtFS::after {
-      content: "Stay Goated" !important;
+      content: var(--container-text) !important;
     }
     .homeIcon-r0w4ny path {fill: transparent}
     .homeIcon-r0w4ny {
-        background: url('https://i.ibb.co/r6Tn2dQ/image-2023-01-20-221010183.png') center/cover no-repeat !important;
+        background: var(--home-button-icon) center/cover no-repeat !important;
         min-width: 60px;
         min-height: 60px;
     }
@@ -128,8 +132,8 @@
     background: var(--profile-xo-logo) !important;
 }
 .container-2ebMPP {
-  background: url('https://raw.githubusercontent.com/advyte-byte/XOPichu/main/assets/window-xo.png') center no-repeat !important;
-  backdrop-filter: blur(5px) !important;
+  backdrop-filter: blur(5px);
+  background: var(--inbox-bg-img) center no-repeat !important;
 }
 .header-145e10.expanded-2H1xJ- {
   background: none !important;
