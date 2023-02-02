@@ -2,7 +2,7 @@
 ### Credits
 [NYRI4](https://github.com/NYRI4/LilyPichu) For LilyPichu BD theme.
 
-![Preview](https://raw.githubusercontent.com/advyte-byte/XOPichu/main/assets/image_2023-01-23_202138290.png)
+![Preview](https://raw.githubusercontent.com/advyte-byte/XOPichu/main/assets/preview.png)
 
 ### Flat Variant
 
@@ -10,7 +10,7 @@
 
 ### If you don't find this in your window, try ctrl + - to downscale the window
 
-![Preview](https://raw.githubusercontent.com/advyte-byte/XOPichu/main/assets/image_2023-01-23_202154827.png)
+![Preview](https://raw.githubusercontent.com/advyte-byte/XOPichu/main/assets/ddr.png)
 
 ## 📥 Installation
 ### BetterDiscord
