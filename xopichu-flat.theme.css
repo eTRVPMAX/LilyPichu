@@ -37,6 +37,8 @@
 
 --button: #dba470;
 
+--blur: blur(5px);
+
 }
 .theme-dark {
 
@@ -117,7 +119,7 @@
     }
 
     :root .bg-1QIAus {
-        background: var(--background-image) center !important;
+        background: var(--background-image) center/cover no-repeat !important;
     }
     .container-1eFtFS::after {
       content: var(--container-text) !important;
@@ -131,11 +133,13 @@
 .userProfileInnerThemedNonPremium-1gT-zY {
     background: var(--profile-xo-logo) !important;
 }
+.userPanelOverlayBackground-3xwDMp {
+    background: none !important;
+}
 .container-2ebMPP {
-  backdrop-filter: blur(5px);
+  backdrop-filter: var(--blur);
   background: var(--inbox-bg-img) center no-repeat !important;
 }
 .header-145e10.expanded-2H1xJ- {
   background: none !important;
-  backdrop-filter: blur(5px);
 }
