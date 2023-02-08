@@ -59,9 +59,9 @@
 
     --background-primary: #35353565 !important;
     --background-secondary: #22222273 !important;
-    --background-secondary-alt: #2c2c2cbb !important;
+    --background-secondary-alt: #2c2c2cef !important;
     --background-tertiary: #18181871 !important;
-    --background-floating: #242424ea !important;
+    --background-floating: #242424de !important;
     --background-accent: #575757 !important;
     --channeltextarea-background: var(--background-secondary);
     --background-modifier-hover: rgba(48, 44, 44, 0.32) !important;
