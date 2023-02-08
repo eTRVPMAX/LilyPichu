@@ -1,12 +1,12 @@
 /**
-* @name XOPichu
+* @name XOPichu-Flat
 * @author Nyria#3863
 * @description A theme forked from LilyPichu with some tiny Weeknd edit by Adv
 * @invite rtBQX5D3bD
 * @version 1.3
 * @donate https://ko-fi.com/nyria
 * @source https://github.com/advyte-byte/XOPichu
-* @updateUrl https://raw.githubusercontent.com/advyte-byte/XOPichu/main/xopichu.theme.css
+* @updateUrl https://raw.githubusercontent.com/advyte-byte/XOPichu/main/xopichu-flat.theme.css
 */
 
 @import url("https://nyri4.github.io/LilyPichu/main.css");
@@ -30,18 +30,19 @@
 --jumping-gif: url('https://raw.githubusercontent.com/advyte-byte/XOPichu/main/assets/xo-mini.png');
 
 /* --background-tertiary-alt: url();  */
---background-tertiary-alt: rgba(177, 177, 177, 0.671);
+--background-tertiary-alt: rgb(177, 177, 177);
 
 /* Border-radius for the whole theme */
---border-radius: 30px;
-
---bg-blur: 15px;
+--border-radius: 20px;
 
 --button: #dba470;
+
+--blur: blur(5px);
 
 }
 .theme-dark {
 
+    /* Text */
     --text-normal: #ffffff;
     --header-primary: rgb(255, 255, 255);
     --interactive-normal: #ffffff;
@@ -54,12 +55,12 @@
     --interactive-hover: #a0a0a0;
     --interactive-active: #e2e2e2;
 
-
-    --background-primary: #30303081 !important;
-    --background-secondary: #22222287 !important;
-    --background-secondary-alt: #2c2c2cbb !important;
-    --background-tertiary: #181818b2 !important;
-    --background-floating: #242424d7 !important;
+    /* Background color */
+    --background-primary: #303030 !important;
+    --background-secondary: #222222 !important;
+    --background-secondary-alt: #2c2c2c !important;
+    --background-tertiary: #181818 !important;
+    --background-floating: #242424 !important;
     --background-accent: #575757 !important;
     --channeltextarea-background: var(--background-secondary);
     --background-modifier-hover: rgba(48, 44, 44, 0.32) !important;
@@ -71,24 +72,26 @@
     --toast-border: #2b2b2b !important;
     --input-background: var(--background-secondary);
 
-
+    /* Scrollbar */
     --scrollbar-auto-thumb: var(--background-tertiary);
     --scrollbar-auto-track: var(--background-secondary-alt);
     --scrollbar-thin-thumb: var(--background-tertiary);
     --scrollbar-thin-track: transparent;
 
+    /* Other */
     --channel-text-area-placeholder: var(--interactive-normal);
     --deprecated-quickswitcher-input-background: var(--background-primary);
 }
     .colorBrand-3cPPsm { color: var(--button) !important;}
     .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { background-color: var(--background-modifier-hover) !important;}
 
+    /* Buttons */
     .lookFilled-yCfaCM { background-color: var(--button) !important;}
     .lookFilled-yCfaCM:active, .lookFilled-yCfaCM:hover { background-color: var(--button) !important;}
     .lookOutlined-3yKVGo:not(.colorWhite-1H92hK) { color: var(--button) !important; border-color: var(--button) !important;}
 
+    /* Hover background */
     .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { color: var(--interactive-normal);}
-
 
     :root .app-3xd6d0::before {
       background: url(none) no-repeat;
@@ -126,28 +129,17 @@
         background: var(--home-button-icon) center/cover no-repeat !important;
         min-width: 60px;
         min-height: 60px;
-    } 
+    }
 .userProfileInnerThemedNonPremium-1gT-zY {
     background: var(--profile-xo-logo) !important;
 }
+.userPanelOverlayBackground-3xwDMp {
+    background: none !important;
+}
 .container-2ebMPP {
-  background: var(--inbox-bg-img) center/cover no-repeat !important;
-  backdrop-filter: blur(5px) !important;
+  backdrop-filter: var(--blur);
+  background: var(--inbox-bg-img) center no-repeat !important;
 }
 .header-145e10.expanded-2H1xJ- {
   background: none !important;
-  backdrop-filter: blur(5px);
-}
-.container-1eFtFS::after,
-.container-YkUktl,
-.container-ZMc96U.themed-Hp1KC_,
-.scroller-kQBbkU,
-.form-3gdLxP,
-.peopleColumn-1wMU14,
-.scroller-WSmht3,
-.container-1NXEtd,
-.guilds-2JjMmN,
-.userPanelOverlayBackground-3xwDMp
-{
-  backdrop-filter: blur(var(--bg-blur)) !important;
 }
