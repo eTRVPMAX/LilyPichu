@@ -154,3 +154,6 @@
 {
   backdrop-filter: blur(var(--bg-blur)) !important;
 }
+.layout-1qmrhw,.membersWrap-3NUR2t .members-3WRCEx .content-2a4AW9 {
+  background: var(--background-secondary-alt) !important;
+}
