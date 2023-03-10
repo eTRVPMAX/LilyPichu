@@ -59,7 +59,7 @@
 
     --background-primary: #35353565 !important;
     --background-secondary: #22222273 !important;
-    --background-secondary-alt: #2c2c2cef !important;
+    --background-secondary-alt: #2c2c2cfa !important;
     --background-tertiary: #18181871 !important;
     --background-floating: #242424de !important;
     --background-accent: #575757 !important;
@@ -142,13 +142,10 @@
   backdrop-filter: blur(5px);
 }
 .container-1eFtFS::after,
-.container-YkUktl,
 .container-ZMc96U.themed-Hp1KC_,
 .scroller-kQBbkU,
 .form-3gdLxP,
 .peopleColumn-1wMU14,
-.scroller-WSmht3,
-.container-1NXEtd,
 .guilds-2JjMmN,
 .userPanelOverlayBackground-3xwDMp
 {
@@ -156,4 +153,7 @@
 }
 .layout-1qmrhw,.membersWrap-3NUR2t .members-3WRCEx .content-2a4AW9 {
   background: var(--background-secondary-alt) !important;
+}
+.container-2kTWmC {
+  background: var(--background-accent) !important;
 }
