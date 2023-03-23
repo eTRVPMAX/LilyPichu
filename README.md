@@ -38,7 +38,7 @@ User Modal
 <div align="left">
     <img align="left" src="https://i.imgur.com/LPH05EO.png" alt="BetterDiscord" width="45" height="45">
     <b><p align="left">BetterDiscord</b>
-    <br/>Download the Theme from here > Open Settings > Themes > Themes folder and copy the file downloaded <a href="https://raw.githubusercontent.com/4dvyte/XOPichu/main/xopichu.theme.css">here</a></p>
+    <br/>Download the Theme by right clicking and then saving it > Open Settings > Themes > Themes folder and copy the file downloaded <a href="https://raw.githubusercontent.com/4dvyte/XOPichu/main/xopichu.theme.css">here</a></p>
 </div>
 
 <div align="left">
@@ -52,7 +52,7 @@ User Modal
 <div align="left">
     <img align="left" src="https://i.imgur.com/LPH05EO.png" alt="BetterDiscord" width="45" height="45">
     <b><p align="left">BetterDiscord</b>
-    <br/>Download the Theme from here > Open Settings > Themes > Themes folder and copy the file downloaded <a href="https://raw.githubusercontent.com/advyte-byte/XOPichu/main/xopichu-flat.theme.css">here</a></p>
+    <br/>Download the Theme by right clicking and then saving it > Open Settings > Themes > Themes folder and copy the file downloaded <a href="https://raw.githubusercontent.com/advyte-byte/XOPichu/main/xopichu-flat.theme.css">here</a></p>
 </div>
 
 <div align="left">
