@@ -189,3 +189,12 @@
 .header-145e10.expanded-2H1xJ- {
   background: none !important;
 }
+:root .ready-3BZNWT + .text-2bYgPB::before {
+  content: "";
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+  width: 200px;
+  height: 200px;
+  background: url("https://raw.githubusercontent.com/4dvyte/XOPichu/main/assets/xo-mini.png") center/80% no-repeat !important;
+}
