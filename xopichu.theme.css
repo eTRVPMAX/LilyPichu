@@ -35,7 +35,7 @@
 /* Border-radius for the whole theme */
 --border-radius: 30px;
 
---bg-blur: 35px;
+--bg-blur: 25px;
 
 --button: #dba470;
 
@@ -44,7 +44,8 @@
 
 .theme-dark {
 
-    --text-normal: #ffffff;
+  /* Text */
+    --text-normal: #f8e1e5;
     --header-primary: rgb(255, 255, 255);
     --interactive-normal: #ffffff;
     --channels-default: #ffffff;
@@ -56,29 +57,30 @@
     --interactive-hover: #a0a0a0;
     --interactive-active: #e2e2e2;
 
-
-    --background-primary: #35353565 !important;
-    --background-secondary: #22222273 !important;
-    --background-secondary-alt: #2c2c2cfa !important;
-    --background-tertiary: #18181871 !important;
-    --background-floating: #242424de !important;
-    --background-accent: #575757 !important;
+    /* Background color */
+    --background-primary: #24242493 !important;
+    --background-secondary: #0c0c0c9d !important;
+    --background-secondary-alt: #1414146b !important;
+    --background-tertiary: #1a1a1a96 !important;
+    --background-floating: #131313da !important;
+    --background-accent: #464646a4 !important;
     --channeltextarea-background: var(--background-secondary);
     --background-modifier-hover: rgba(48, 44, 44, 0.32) !important;
     --background-modifier-active: rgba(17, 12, 12, 0.32) !important;
     --background-modifier-selected: rgba(31, 21, 21, 0.32) !important;
-    --toast-background: #3d3638 !important;
-    --toast-header: #292526 !important;
+    --toast-background: #3d3638d5 !important;
+    --toast-header: #292526da !important;
     --toast-contents: #252424 !important;
-    --toast-border: #2b2b2b !important;
+    --toast-border: #242323d0 !important;
     --input-background: var(--background-secondary);
 
-
+    /* Scrollbar */
     --scrollbar-auto-thumb: var(--background-tertiary);
     --scrollbar-auto-track: var(--background-secondary-alt);
     --scrollbar-thin-thumb: var(--background-tertiary);
     --scrollbar-thin-track: transparent;
 
+    /* Other */
     --channel-text-area-placeholder: var(--interactive-normal);
     --deprecated-quickswitcher-input-background: var(--background-primary);
 }

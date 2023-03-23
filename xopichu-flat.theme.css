@@ -43,7 +43,7 @@
 .theme-dark {
 
     /* Text */
-    --text-normal: #ffffff;
+    --text-normal: #f8e1e5;
     --header-primary: rgb(255, 255, 255);
     --interactive-normal: #ffffff;
     --channels-default: #ffffff;
@@ -56,12 +56,12 @@
     --interactive-active: #e2e2e2;
 
     /* Background color */
-    --background-primary: #303030 !important;
-    --background-secondary: #222222 !important;
-    --background-secondary-alt: #2c2c2c !important;
-    --background-tertiary: #181818 !important;
-    --background-floating: #242424 !important;
-    --background-accent: #575757 !important;
+    --background-primary: #242424 !important;
+    --background-secondary: #0c0c0c !important;
+    --background-secondary-alt: #141414 !important;
+    --background-tertiary: #1a1a1a !important;
+    --background-floating: #131313 !important;
+    --background-accent: #464646 !important;
     --channeltextarea-background: var(--background-secondary);
     --background-modifier-hover: rgba(48, 44, 44, 0.32) !important;
     --background-modifier-active: rgba(17, 12, 12, 0.32) !important;
@@ -69,7 +69,7 @@
     --toast-background: #3d3638 !important;
     --toast-header: #292526 !important;
     --toast-contents: #252424 !important;
-    --toast-border: #2b2b2b !important;
+    --toast-border: #242323 !important;
     --input-background: var(--background-secondary);
 
     /* Scrollbar */
@@ -80,6 +80,53 @@
 
     /* Other */
     --channel-text-area-placeholder: var(--interactive-normal);
+    --deprecated-quickswitcher-input-background: var(--background-primary);
+}
+    .colorBrand-3cPPsm { color: var(--button) !important;}
+    .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { background-color: var(--background-modifier-hover) !important;}
+
+    /* Buttons */
+    .lookFilled-yCfaCM { background-color: var(--button) !important;}
+    .lookFilled-yCfaCM:active, .lookFilled-yCfaCM:hover { background-color: var(--button) !important;}
+    .lookOutlined-3yKVGo:not(.colorWhite-1H92hK) { color: var(--button) !important; border-color: var(--button) !important;}
+
+    /* Hover background */
+    .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { color: var(--interactive-normal);}
+
+.theme-light {
+
+    /* Text */
+    --text-normal: #868686 !important;
+    --header-primary: #808080 !important;
+    --interactive-normal: #969696 !important;
+    --channels-default: #a5a5a5 !important;
+
+    --text-muted: #a86373 !important;
+    --interactive-muted: #cf92a0 !important;
+
+    --header-secondary: #cf92a0 !important;
+    --interactive-hover: #be7d8c !important;
+    --interactive-active: #b36f7f !important;
+
+    /* Background color */
+    --background-primary: rgb(199, 199, 199) !important;
+    --background-secondary: #a0a0a0 !important;
+    --background-secondary-alt: #797979 !important;
+    --background-tertiary: #808080 !important;
+    --background-floating: #9e9e9e !important;
+    --background-accent: #313131 !important;
+    --channeltextarea-background: var(--background-secondary);
+    --background-modifier-hover: rgba(56, 31, 31, 0.062) !important;
+    --background-modifier-active: rgba(19, 12, 12, 0.123) !important;
+    --background-modifier-selected: rgba(31, 21, 21, 0.11) !important;
+
+    /* Scrollbar */
+    --scrollbar-auto-thumb: var(--background-tertiary);
+    --scrollbar-auto-track: var(--background-secondary-alt);
+    --scrollbar-thin-thumb: var(--background-tertiary);
+    --scrollbar-thin-track: transparent;
+
+    /* Other */
     --deprecated-quickswitcher-input-background: var(--background-primary);
 }
     .colorBrand-3cPPsm { color: var(--button) !important;}
