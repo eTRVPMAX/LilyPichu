@@ -2,12 +2,10 @@
 * @name XOPichu
 * @author Nyria#3863
 * @description A theme forked from LilyPichu with some tiny Weeknd edit by Adv
-* @version 1.3
+* @invite rtBQX5D3bD
+* @version 1.4
 * @donate https://ko-fi.com/nyria
-* @source https://github.com/advyte-byte/XOPichu
-* @updateUrl https://raw.githubusercontent.com/advyte-byte/XOPichu/main/xopichu.theme.css
 */
-
 @import url("https://nyri4.github.io/LilyPichu/main.css");
 
 :root {
@@ -39,7 +37,6 @@
 --button: #dba470;
 
 }
-
 
 .theme-dark {
 

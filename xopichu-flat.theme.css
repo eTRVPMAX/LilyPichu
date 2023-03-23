@@ -1,13 +1,11 @@
 /**
-* @name XOPichu-Flat
+* @name XOPichu
 * @author Nyria#3863
 * @description A theme forked from LilyPichu with some tiny Weeknd edit by Adv
-* @version 1.3
+* @invite rtBQX5D3bD
+* @version 1.4
 * @donate https://ko-fi.com/nyria
-* @source https://github.com/advyte-byte/XOPichu
-* @updateUrl https://raw.githubusercontent.com/advyte-byte/XOPichu/main/xopichu-flat.theme.css
 */
-
 @import url("https://nyri4.github.io/LilyPichu/main.css");
 
 :root {
@@ -79,53 +77,6 @@
 
     /* Other */
     --channel-text-area-placeholder: var(--interactive-normal);
-    --deprecated-quickswitcher-input-background: var(--background-primary);
-}
-    .colorBrand-3cPPsm { color: var(--button) !important;}
-    .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { background-color: var(--background-modifier-hover) !important;}
-
-    /* Buttons */
-    .lookFilled-yCfaCM { background-color: var(--button) !important;}
-    .lookFilled-yCfaCM:active, .lookFilled-yCfaCM:hover { background-color: var(--button) !important;}
-    .lookOutlined-3yKVGo:not(.colorWhite-1H92hK) { color: var(--button) !important; border-color: var(--button) !important;}
-
-    /* Hover background */
-    .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { color: var(--interactive-normal);}
-
-.theme-light {
-
-    /* Text */
-    --text-normal: #868686 !important;
-    --header-primary: #808080 !important;
-    --interactive-normal: #969696 !important;
-    --channels-default: #a5a5a5 !important;
-
-    --text-muted: #a86373 !important;
-    --interactive-muted: #cf92a0 !important;
-
-    --header-secondary: #cf92a0 !important;
-    --interactive-hover: #be7d8c !important;
-    --interactive-active: #b36f7f !important;
-
-    /* Background color */
-    --background-primary: rgb(199, 199, 199) !important;
-    --background-secondary: #a0a0a0 !important;
-    --background-secondary-alt: #797979 !important;
-    --background-tertiary: #808080 !important;
-    --background-floating: #9e9e9e !important;
-    --background-accent: #313131 !important;
-    --channeltextarea-background: var(--background-secondary);
-    --background-modifier-hover: rgba(56, 31, 31, 0.062) !important;
-    --background-modifier-active: rgba(19, 12, 12, 0.123) !important;
-    --background-modifier-selected: rgba(31, 21, 21, 0.11) !important;
-
-    /* Scrollbar */
-    --scrollbar-auto-thumb: var(--background-tertiary);
-    --scrollbar-auto-track: var(--background-secondary-alt);
-    --scrollbar-thin-thumb: var(--background-tertiary);
-    --scrollbar-thin-track: transparent;
-
-    /* Other */
     --deprecated-quickswitcher-input-background: var(--background-primary);
 }
     .colorBrand-3cPPsm { color: var(--button) !important;}
