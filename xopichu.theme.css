@@ -16,7 +16,7 @@
 
 --container-text: "Stay Goated";
 
---home-button-icon: url('https://i.ibb.co/r6Tn2dQ/image-2023-01-20-221010183.png');
+--home-button-icon: url('https://i.pinimg.com/originals/75/0f/57/750f57aef231b96e3f21f3650ac82008.jpg');
 
 --inbox-bg-img: url('https://raw.githubusercontent.com/4dvyte/XOPichu/main/assets/window-xo.png');
 
@@ -54,8 +54,8 @@
     --interactive-active: #e2e2e2;
 
     /* Background color */
-    --background-primary: #24242493 !important;
-    --background-secondary: #0c0c0c9d !important;
+    --background-primary: #2424247e !important;
+    --background-secondary: #0c0c0c77 !important;
     --background-secondary-alt: #1414146b !important;
     --background-tertiary: #1a1a1a96 !important;
     --background-floating: #131313da !important;
