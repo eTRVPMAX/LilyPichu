@@ -120,7 +120,22 @@
         background: var(--background-image) center/cover no-repeat !important;
     }
     .container-1eFtFS::after {
-      content: var(--container-text) !important;
+        content: var(--container-text) !important;
+        position: fixed;
+        top: 220px;
+        bottom: 85px;
+        right: 60px;
+        z-index: -2;
+        width: 320px;
+        background-color: var(--background-primary);
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        color: var(--text-normal);
+        border-radius: var(--border-radius);
+        overflow: hidden;
     }
     .homeIcon-r0w4ny path {fill: transparent}
     .homeIcon-r0w4ny {
@@ -128,10 +143,10 @@
         min-width: 60px;
         min-height: 60px;
     } 
-.userProfileInnerThemedNonPremium-1gT-zY {
+.userProfileInnerThemedNonPremium-2AJg-H,.userProfileInnerThemedPremiumWithoutBanner-lZ9inp,.userProfileInnerThemedWithBanner-25XGmz {
     background: var(--profile-xo-logo) !important;
 }
-.container-2ebMPP {
+.container-2ebMPP,.recentMentionsPopout-2bI1ZN {
   background: var(--inbox-bg-img) center/cover no-repeat !important;
   backdrop-filter: blur(5px) !important;
 }
@@ -139,7 +154,6 @@
   background: none !important;
   backdrop-filter: blur(5px);
 }
-.container-1eFtFS::after,
 .container-ZMc96U.themed-Hp1KC_,
 .scroller-kQBbkU,
 .form-3gdLxP,
@@ -151,6 +165,9 @@
 }
 .layout-1qmrhw,.membersWrap-3NUR2t .members-3WRCEx .content-2a4AW9 {
   background: var(--background-secondary-alt) !important;
+}
+.messageContainer-3VTXBC,.peopleListItem-u6dGxF {
+    background: var(--background-secondary-alt) !important;
 }
 .container-2kTWmC {
   background: var(--background-accent) !important;
