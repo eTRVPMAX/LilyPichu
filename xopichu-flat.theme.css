@@ -30,7 +30,7 @@
 --background-tertiary-alt: rgb(177, 177, 177);
 
 /* Border-radius for the whole theme */
---border-radius: 20px;
+--border-radius: 25px;
 
 --button: #dba470;
 
@@ -41,7 +41,7 @@
 
     /* Text */
     --text-normal: #f8e1e5;
-    --header-primary: rgb(255, 255, 255);
+    --header-primary: #ffffff;
     --interactive-normal: #ffffff;
     --channels-default: #ffffff;
 
@@ -58,7 +58,7 @@
     --background-secondary-alt: #141414 !important;
     --background-tertiary: #1a1a1a !important;
     --background-floating: #131313 !important;
-    --background-accent: #464646 !important;
+    --background-accent: #5f5f5f !important;
     --channeltextarea-background: var(--background-secondary);
     --background-modifier-hover: rgba(48, 44, 44, 0.32) !important;
     --background-modifier-active: rgba(17, 12, 12, 0.32) !important;
@@ -127,15 +127,17 @@
         min-width: 60px;
         min-height: 60px;
     }
-.userProfileInnerThemedNonPremium-1gT-zY {
+.userProfileInnerThemedNonPremium-2AJg-H {
     background: var(--profile-xo-logo) !important;
 }
 .userPanelOverlayBackground-3xwDMp {
     background: none !important;
 }
 .container-2ebMPP {
-  backdrop-filter: var(--blur);
-  background: var(--inbox-bg-img) center no-repeat !important;
+  background: var(--background-floating) !important;
+}
+.messageContainer-3VTXBC,.peopleListItem-u6dGxF {
+    background: var(--background-secondary-alt) !important;
 }
 .header-145e10.expanded-2H1xJ- {
   background: none !important;
@@ -148,4 +150,7 @@
   width: 200px;
   height: 200px;
   background: url("https://raw.githubusercontent.com/4dvyte/XOPichu/main/assets/xo-mini.png") center/80% no-repeat !important;
+}
+.scrollableContainer-15eg7h {
+    border-radius: var(--border-radius) !important;
 }
