@@ -32,7 +32,7 @@
 /* Border-radius for the whole theme */
 --border-radius: 25px;
 
---bg-blur: 25px;
+--bg-blur: 30px;
 
 --button: #dba470;
 
@@ -157,6 +157,7 @@
 }
 .container-ZMc96U.themed-Hp1KC_,
 .scroller-kQBbkU,
+.scroller-18M1mG,
 .form-3gdLxP,
 .peopleColumn-1wMU14,
 .guilds-2JjMmN,
@@ -167,7 +168,7 @@
 .layout-1qmrhw,.membersWrap-3NUR2t .members-3WRCEx .content-2a4AW9 {
   background: var(--background-secondary-alt) !important;
 }
-.messageContainer-3VTXBC,.peopleListItem-u6dGxF {
+.messageContainer-3VTXBC,.peopleListItem-u6dGxF,.scroller-18M1mG {
     background: var(--background-secondary-alt) !important;
 }
 .container-YkUktl {
