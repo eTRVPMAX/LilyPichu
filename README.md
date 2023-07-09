@@ -18,6 +18,10 @@
 
 ### Few more Screenshots.
 
+Loading Screen
+
+![Preview](https://raw.githubusercontent.com/4dvyte/XOPichu/main/assets/loading.png)
+
 Inbox
 
 ![Preview](https://raw.githubusercontent.com/4dvyte/XOPichu/main/assets/inbox.png)
