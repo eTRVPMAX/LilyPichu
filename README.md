@@ -16,11 +16,9 @@
 
 ![Preview](https://raw.githubusercontent.com/4dvyte/XOPichu/main/assets/preview-flat.png)
 
-### If you don't find this in your window, try ctrl + - to downscale the window
+### Few more Screenshots.
 
-![Preview](https://raw.githubusercontent.com/4dvyte/XOPichu/main/assets/ddr.png)
-
-A Few More XO somewhere or the other.
+Inbox
 
 ![Preview](https://raw.githubusercontent.com/4dvyte/XOPichu/main/assets/inbox.png)
 
