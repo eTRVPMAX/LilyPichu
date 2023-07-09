@@ -7,7 +7,6 @@
 * @donate https://ko-fi.com/nyria
 */
 @import url("https://nyri4.github.io/LilyPichu/main.css");
-@import url("https://raw.githubusercontent.com/4dvyte/XOPichu/test/xopichu.css");
 
 :root {
 
@@ -39,4 +38,149 @@
 
 }
 
-/* Add your own code here */
+.theme-dark {
+
+  /* Text */
+    --text-normal: #f8e1e5;
+    --header-primary: rgb(255, 255, 255);
+    --interactive-normal: #ffffff;
+    --channels-default: #ffffff;
+
+    --text-muted: #ffffff;
+    --interactive-muted: #858585;
+
+    --header-secondary: #858585;
+    --interactive-hover: #a0a0a0;
+    --interactive-active: #e2e2e2;
+
+    /* Background color */
+    --background-primary: #2424247e !important;
+    --background-secondary: #0c0c0c9c !important;
+    --background-secondary-alt: #1414146b !important;
+    --background-tertiary: #1a1a1a96 !important;
+    --background-floating: #131313da !important;
+    --background-accent: #3b3b3ba4 !important;
+    --channeltextarea-background: var(--background-secondary);
+    --background-modifier-hover: rgba(48, 44, 44, 0.32) !important;
+    --background-modifier-active: rgba(17, 12, 12, 0.32) !important;
+    --background-modifier-selected: rgba(31, 21, 21, 0.32) !important;
+    --toast-background: #3d3638d5 !important;
+    --toast-header: #292526da !important;
+    --toast-contents: #252424 !important;
+    --toast-border: #242323d0 !important;
+    --input-background: var(--background-secondary);
+
+    /* Scrollbar */
+    --scrollbar-auto-thumb: var(--background-tertiary);
+    --scrollbar-auto-track: var(--background-secondary-alt);
+    --scrollbar-thin-thumb: var(--background-tertiary);
+    --scrollbar-thin-track: transparent;
+
+    /* Other */
+    --channel-text-area-placeholder: var(--interactive-normal);
+    --deprecated-quickswitcher-input-background: var(--background-primary);
+}
+
+    .colorBrand-3cPPsm { color: var(--button) !important;}
+    .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { background-color: var(--background-modifier-hover) !important;}
+
+    .lookFilled-yCfaCM { background-color: var(--button) !important;}
+    .lookFilled-yCfaCM:active, .lookFilled-yCfaCM:hover { background-color: var(--button) !important;}
+    .lookOutlined-3yKVGo:not(.colorWhite-1H92hK) { color: var(--button) !important; border-color: var(--button) !important;}
+
+    .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { color: var(--interactive-normal);}
+
+
+    :root .app-3xd6d0::before {
+      background: url(none) no-repeat;
+    }
+    :root .app-3xd6d0::after {
+      background: url(none) no-repeat;
+    }
+    :root .app-2CXKsg::before {
+      background: url(none) no-repeat;
+    }
+    :root .app-2CXKsg::after {
+      background: url(none) no-repeat;
+    }
+    :root .layers-OrUESM::before {
+      background: url(none) no-repeat;
+    }
+    :root .layers-OrUESM::after {
+      background: url(none) no-repeat;
+    }
+    :root .bg-1QIAus::after {
+      background: url(none) no-repeat;
+    }
+    :root .bg-1QIAus::before {
+      background: url(none) no-repeat;
+    }
+
+    :root .bg-1QIAus {
+        background: var(--background-image) center/cover no-repeat !important;
+    }
+    .container-1eFtFS::after {
+        content: var(--container-text) !important;
+        position: fixed;
+        top: 220px;
+        bottom: 85px;
+        right: 60px;
+        z-index: -2;
+        width: 320px;
+        background: var(--background-accent) !important;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        color: var(--text-normal);
+        border-radius: var(--border-radius);
+        overflow: hidden;
+        backdrop-filter: blur(var(--bg-blur));
+    }
+    .homeIcon-r0w4ny path {fill: transparent}
+    .homeIcon-r0w4ny {
+        background: var(--home-button-icon) center/cover no-repeat !important;
+        min-width: 60px;
+        min-height: 60px;
+    } 
+.userProfileInnerThemedNonPremium-2AJg-H,.userProfileInnerThemedPremiumWithoutBanner-lZ9inp,.userProfileInnerThemedWithBanner-25XGmz {
+    background: var(--profile-xo-logo) !important;
+}
+.container-2ebMPP,.recentMentionsPopout-2bI1ZN {
+  background: var(--inbox-bg-img) center/cover no-repeat !important;
+  backdrop-filter: blur(5px) !important;
+}
+.header-145e10.expanded-2H1xJ- {
+  background: none !important;
+  backdrop-filter: blur(5px);
+}
+.container-ZMc96U.themed-Hp1KC_,
+.scroller-kQBbkU,
+.scroller-18M1mG,
+.form-3gdLxP,
+.peopleColumn-1wMU14,
+.guilds-2JjMmN,
+.userPanelOverlayBackground-3xwDMp
+{
+  backdrop-filter: blur(var(--bg-blur)) !important;
+}
+.layout-1qmrhw,.membersWrap-3NUR2t .members-3WRCEx .content-2a4AW9 {
+  background: var(--background-secondary-alt) !important;
+}
+.messageContainer-3VTXBC,.peopleListItem-u6dGxF,.scroller-18M1mG {
+    background: var(--background-secondary-alt) !important;
+}
+.container-YkUktl {
+  background: var(--background-accent) !important;
+  backdrop-filter: blur(var(--bg-blur));
+}
+:root .ready-3BZNWT + .text-2bYgPB::before {
+  content: "";
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+  width: 200px;
+  height: 200px;
+  background: url("https://raw.githubusercontent.com/4dvyte/XOPichu/main/assets/xo-mini.png") center/80% no-repeat !important;
+}
