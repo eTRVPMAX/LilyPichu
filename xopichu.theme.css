@@ -195,7 +195,9 @@
 .sidebarRegionScroller-FXiQOh,
 .auto-2TJ1RH,
 .none-1rXy4P,
-.members-3WRCEx {
+.members-3WRCEx,
+:root .nowPlayingColumn-1eCBCN .scroller-hE2gWq,
+:root .nowPlayingColumn-1eCBCN::after {
     backdrop-filter: blur(var(--bg-blur-secondary));
 }
 
