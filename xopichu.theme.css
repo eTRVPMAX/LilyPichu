@@ -81,6 +81,48 @@
     --channel-text-area-placeholder: var(--interactive-normal);
     --deprecated-quickswitcher-input-background: var(--background-primary);
 }
+.theme-light {
+
+  /* Text */
+    --text-normal: #000000;
+    --header-primary: #000000;
+    --interactive-normal: #000000;
+    --channels-default: #000000;
+
+    --text-muted: #000000;
+    --interactive-muted: #1b1b1b;
+
+    --header-secondary: #000000;
+    --interactive-hover: #242424;
+    --interactive-active: #141414;
+
+    /* Background color */
+    --background-primary: #d4d4d47e !important;
+    --background-secondary: #a5a5a59c !important;
+    --background-secondary-alt: #8d8d8d6b !important;
+    --background-tertiary: #80808096 !important;
+    --background-floating: #818181da !important;
+    --background-accent: #838383a4 !important;
+    --channeltextarea-background: var(--background-secondary);
+    --background-modifier-hover: rgba(141, 153, 143, 0.32) !important;
+    --background-modifier-active: rgba(117, 138, 126, 0.32) !important;
+    --background-modifier-selected: rgba(137, 156, 143, 0.32) !important;
+    --toast-background: #b5c9b3d5 !important;
+    --toast-header: #a8beadda !important;
+    --toast-contents: #bbbbbb !important;
+    --toast-border: #b4b4b4d0 !important;
+    --input-background: var(--background-secondary);
+
+    /* Scrollbar */
+    --scrollbar-auto-thumb: var(--background-tertiary);
+    --scrollbar-auto-track: var(--background-secondary-alt);
+    --scrollbar-thin-thumb: var(--background-tertiary);
+    --scrollbar-thin-track: transparent;
+
+    /* Other */
+    --channel-text-area-placeholder: var(--interactive-normal);
+    --deprecated-quickswitcher-input-background: var(--background-primary);
+}
 
     .colorBrand-3cPPsm { color: var(--button) !important;}
     .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { background-color: var(--background-modifier-hover) !important;}
