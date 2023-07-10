@@ -169,5 +169,9 @@
 :root .root-8LYsGj.root-1CAIjD.small-2xUY-3 {
     border-radius: 5px !important;
 }
+.panel-2ZFCRb {
+    z-index: 10 !important;
+    background-color: var(--toast-header) !important;
+}
 
 /* add your code here */
