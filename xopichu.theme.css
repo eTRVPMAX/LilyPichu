@@ -158,7 +158,6 @@
 }
 .container-ZMc96U.themed-Hp1KC_,
 .scroller-kQBbkU,
-.scroller-18M1mG,
 .form-3gdLxP,
 .peopleColumn-1wMU14,
 .guilds-2JjMmN,
@@ -166,11 +165,12 @@
 {
   backdrop-filter: blur(var(--bg-blur)) !important;
 }
-.layout-1qmrhw,.membersWrap-3NUR2t .members-3WRCEx .content-2a4AW9 {
+.layout-1qmrhw,.membersWrap-3NUR2t .members-3WRCEx .content-2a4AW9,.messageContainer-3VTXBC,.peopleListItem-u6dGxF {
   background: var(--background-secondary-alt) !important;
 }
-.messageContainer-3VTXBC,.peopleListItem-u6dGxF,.scroller-18M1mG {
-    background: var(--background-secondary-alt) !important;
+.scroller-18M1mG {
+    background: var(--background-tertiary);
+    backdrop-filter: blur(var(--bg-blur-secondary));
 }
 .container-YkUktl {
   background: var(--background-accent) !important;
@@ -197,7 +197,8 @@
 .none-1rXy4P,
 .members-3WRCEx,
 :root .nowPlayingColumn-1eCBCN .scroller-hE2gWq,
-:root .nowPlayingColumn-1eCBCN::after {
+:root .nowPlayingColumn-1eCBCN::after,
+.scroller-18M1mG, {
     backdrop-filter: blur(var(--bg-blur-secondary));
 }
 
