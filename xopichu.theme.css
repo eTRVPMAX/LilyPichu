@@ -192,7 +192,10 @@
     z-index: 10 !important;
     background-color: var(--toast-header) !important;
 }
-.sidebarRegionScroller-FXiQOh,.auto-2TJ1RH {
+.sidebarRegionScroller-FXiQOh,
+.contentColumnDefault-3eyv5o,
+.none-1rXy4P,
+.members-3WRCEx {
     backdrop-filter: blur(var(--bg-blur-secondary));
 }
 
