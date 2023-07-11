@@ -226,12 +226,12 @@
   height: 200px;
   background: url("https://raw.githubusercontent.com/4dvyte/XOPichu/main/assets/xo-mini.png") center/80% no-repeat !important;
 }
-:root .root-8LYsGj.root-1CAIjD.small-2xUY-3 {
-    border-radius: 5px !important;
+.userProfileOuterThemed-2BgJCM.userPopoutOuter-1OHwPL, .userProfileOuterThemed-2BgJCM.userProfileOuter-2tQwNf {
+  padding: 10px;
 }
 .panel-2ZFCRb {
-    z-index: 10 !important;
-    background-color: var(--toast-header) !important;
+  z-index: 10 !important;
+  background-color: var(--toast-header) !important;
 }
 .sidebarRegionScroller-FXiQOh,
 .auto-2TJ1RH,
