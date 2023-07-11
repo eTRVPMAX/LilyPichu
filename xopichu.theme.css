@@ -224,7 +224,7 @@
   left: 50px;
   width: 200px;
   height: 200px;
-  background: url("https://raw.githubusercontent.com/4dvyte/XOPichu/main/assets/xo-mini.png") center/80% no-repeat !important;
+  background: var(--jumping-gif) center/80% no-repeat !important;
 }
 .userProfileOuterThemed-2BgJCM.userPopoutOuter-1OHwPL, .userProfileOuterThemed-2BgJCM.userProfileOuter-2tQwNf {
   padding: 10px;
