@@ -27,7 +27,7 @@
 --jumping-gif: url('https://raw.githubusercontent.com/4dvyte/XOPichu/main/assets/xo-mini.png');
 
 /* --background-tertiary-alt: url();  */
---background-tertiary-alt: rgba(177, 177, 177, 0.671);
+--background-tertiary-alt: rgba(177, 177, 177, );
 
 /* Border-radius for the whole theme */
 --border-radius: 25px;
