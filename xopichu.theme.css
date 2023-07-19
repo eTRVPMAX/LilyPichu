@@ -12,16 +12,16 @@
 
 /* --- User variables --- */
 
---background-image: none;
+--background-image: ;
 
 --container-text: "Stay Goated";
 
---home-button-icon: none;
+--home-button-icon: ;
 
---inbox-bg-img: none;
+--inbox-bg-img: ;
 
 /* XO logo in user profile / set it to none if you dont want it */
---profile-xo-logo: none;
+--profile-xo-logo: ;
 
 /* Jumping GIF */
 --jumping-gif: url('https://raw.githubusercontent.com/4dvyte/XOPichu/main/assets/xo-mini.png');
