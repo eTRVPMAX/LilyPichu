@@ -32,8 +32,8 @@
 /* Border-radius for the whole theme */
 --border-radius: 25px;
 
---bg-blur: 0px;
---bg-blur-secondary: 0px;
+--bg-blur: 100px;
+--bg-blur-secondary: 5px;
 
 --button: #dba470;
 
