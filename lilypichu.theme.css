@@ -13,7 +13,7 @@
 
 :root {
   /* --- User variables --- */
-
+  --background-image: url('https://raw.githubusercontent.com/4dvyte/XOPichu/main/assets/bg.png');
   /* Jumping GIF */
   --jumping-gif: url("https://i.imgur.com/dCd49s0.gif");
 
