@@ -27,12 +27,12 @@
 --jumping-gif: url('https://raw.githubusercontent.com/4dvyte/XOPichu/main/assets/xo-mini.png');
 
 /* --background-tertiary-alt: url();  */
---background-tertiary-alt: rgb(177, 177, 177);
+--background-tertiary-alt: rgba(177, 177, 177, 0.671);
 
 /* Border-radius for the whole theme */
 --border-radius: 25px;
 
---bg-blur: 100px;
+--bg-blur: 30px;
 --bg-blur-secondary: 5px;
 
 --button: #dba470;
