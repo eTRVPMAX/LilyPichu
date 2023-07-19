@@ -16,9 +16,9 @@
 
 --container-text: "Stay Goated";
 
---home-button-icon: ;
+--home-button-icon: none;
 
---inbox-bg-img: url('https://raw.githubusercontent.com/4dvyte/XOPichu/main/assets/window-xo.png');
+--inbox-bg-img: none;
 
 /* XO logo in user profile / set it to none if you dont want it */
 --profile-xo-logo: none;
