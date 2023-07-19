@@ -21,7 +21,7 @@
 --inbox-bg-img: url('https://raw.githubusercontent.com/4dvyte/XOPichu/main/assets/window-xo.png');
 
 /* XO logo in user profile / set it to none if you dont want it */
---profile-xo-logo: url('https://raw.githubusercontent.com/4dvyte/XOPichu/main/assets/xo-profile-bg.png');
+--profile-xo-logo: none;
 
 /* Jumping GIF */
 --jumping-gif: url('https://raw.githubusercontent.com/4dvyte/XOPichu/main/assets/xo-mini.png');
