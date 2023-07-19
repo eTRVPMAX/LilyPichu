@@ -55,12 +55,12 @@
     --interactive-active: #e2e2e2;
 
     /* Background color */
-    --background-primary: #2424247e !important;
-    --background-secondary: #0c0c0c9c !important;
-    --background-secondary-alt: #1414146b !important;
-    --background-tertiary: #1a1a1a96 !important;
-    --background-floating: #131313da !important;
-    --background-accent: #3b3b3ba4 !important;
+    --background-primary: #2424247e;
+    --background-secondary: #0c0c0c9c;
+    --background-secondary-alt: #1414146b;
+    --background-tertiary: #1a1a1a96;
+    --background-floating: #131313da;
+    --background-accent: #3b3b3ba4;
     --channeltextarea-background: var(--background-secondary);
     --background-modifier-hover: rgba(48, 44, 44, 0.32) !important;
     --background-modifier-active: rgba(17, 12, 12, 0.32) !important;
